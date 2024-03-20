@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header .nav1{
+    background-image: linear-gradient(to left,rgb(243, 92, 92),rgb(0, 0, 0));
+    width: 100%;
+    height: 45px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+header .nav1 .icons{
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid black; */
+    margin-left: 10%;
+    display: flex;
+}
+header .nav1 .icons h1{
+    font-size: 29px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: auto;
+    color: rgb(255, 255, 255);
+}
+header .nav1 button{
+    margin: auto;
+    width: 7%;
+    height: 70%;
+    margin-left: 53%;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(252, 245, 245);
+    font-family: Poppins;
+    background-color: rgb(243, 92, 92) ;
+}
+header .nav2{
+    width: 80%;
+    margin: auto;
+    align-self: center;
+    height: 60px;
+    /* border: 2px solid rgb(0, 255, 26); */
+    display: flex;
+}
+header .nav2 .logo{
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+header .nav2 .logo h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(31, 29, 30);
+}
+header .nav2 .logo h2{
+    color: rgb(33, 32, 33);
+}
+header .nav2 .logo .con{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+header .nav2 .option{
+    /* border: 2px solid blue; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+}
+header .nav2 .option li{
+    display: inline;
+    padding: 5px;
+    /* justify-content: space-around; */
+    font-family: Poppins;
+    font-size: 17px;
+    color:black ;
+    margin-left: 75px;
+}
+ul,li{
+    padding: 15px;
+}
+header .nav2 button{
+    width: 3%;
+    height: 100%;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    margin-left: 17%;
+    border: none;
+
+}
+
+header .himg{
+    width: 99.8%;
+    height: 600px;
+    /* border: 2px solid red; */
+    background: url("C:/Users/Administrator/Desktop/codesoft/wallpaperflare.com_wallpaper (2).jpg")no-repeat center center/cover;
+}
+
+header .imgd{
+    width: 99.8%;
+    height: 150px;
+    /* border: 2px solid  red; */
+    background-image: linear-gradient(to left,rgb(243, 92, 92),rgb(0, 0, 0));
+    display: flex;
+}
+
+header .imgd .dt1{
+    width: 25%;
+    height: 90px;
+    /* border: 2px solid red; */
+    margin-top:30px ;
+    margin-left: 89px;
+    align-items: center;
+    display: flex;
+}
+header .imgd .dt1 h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+
+}
+header .imgd .dt1 h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+}
+header .imgd .dt2 h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+header .imgd .dt2 h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+}
+header .imgd .dt2{
+    width: 25%;
+    height: 90px;
+    /* border: 2px solid red; */
+    margin-top:30px ;
+    margin-left: 89px;
+    align-items: center;
+    display: flex;
+}
+header .imgd .dt3{
+    width: 25%;
+    height: 90px;
+    /* border: 2px solid red; */
+    margin-top:30px ;
+    margin-left: 89px;
+    align-items: center;
+    display: flex;
+}
+header .imgd .dt3 h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+header .imgd .dt3 h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+}
+header .abt{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 60px;
+    padding: auto;
+    margin: auto;
+    margin-left:300px;
+}
+
+header .abt h1{
+    font-family: Poppins;
+    font-size: 29px;
+    color: rgb(23, 22, 22);
+    margin-top: 22px;
+}
+/* header .abt u{
+    background-image: linear-gradient(to left,rgb(243, 92, 92),rgb(0, 0, 0));
+} */
+header .abtdt{
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 70%;
+    height: 350px;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    margin-left: 300px;
+}
+header .abtdt .vkdtl{
+    margin-top: 50px;
+    /* border: 2px solid blue; */
+    width: 50%;
+    height: 95%;
+    
+}
+header .abtdt .vkdtl button{
+    border-radius: 10px;
+    /* margin-left: 20px; */
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+    font-weight: 700;
+    background-image: linear-gradient(to left,rgb(243, 92, 92),rgb(0, 0, 0));
+    border: none;
+    font-family: poppins;
+}
+header .abtdt .vkimg{
+    /* border: 2px solid yellow; */
+    width: 30%;
+    height: 98%;
+    margin-left: 90px;
+    padding-bottom:50px ;
+}
+header .abtdt .vkimg img{
+    width: 100%;
+    height: 130%;   
+}
+header .abtdt .vkdtl h1{
+    font-family: Poppins;
+    font-size: 25px;
+    color: rgb(23, 22, 22);
+}
+header .abtdt .vkdtl h2{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+header .serv{
+    /* border: 2px solid blue; */
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}
+header .serv h1{
+    font-family: poppins;
+    font-size: 29px;
+    color: rgb(23, 22, 22);
+}
+header .game{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+header .game .card1{
+    /* border: 2px solid black; */
+    position: relative;
+    width: 25%;
+    height: 90%;
+    margin: auto;
+    /* z-index: -1; */
+}
+header .game .card1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+header .game .card1 .nmg1{
+    position: absolute;
+    border: 2px solid rgb(255, 255, 255);
+   margin-top: 142px;
+    width: 50%;
+    height: 17%;
+    margin-left: 49.5%;
+    background: linear-gradient(to left,rgba(57, 92, 234, 0.8),rgba(245, 36, 182, 0.8)) ;
+    border-radius: 20px 0px 0px 20px ;
+    
+}
+header .game .card1 .nmg1 h3{
+    font-family: poppins;
+    margin-top: 3px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+header .game .card2{
+    /* border: 2px solid black; */
+    width: 25%;
+    height: 90%;
+    margin: auto;
+    position: relative;
+}
+header .game .card2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+header .game .card2 .nmg2{
+    position: absolute;
+    border: 2px solid rgb(255, 255, 255);
+   margin-top: 142px;
+    width: 50%;
+    height: 17%;
+    margin-left: 49%;
+    background: linear-gradient(to left,rgba(79, 100, 117, 0.8),rgba(181, 232, 218, 0.8)) ;
+    border-radius: 20px 0px 0px 20px ;
+    
+}
+header .game .card2 .nmg2 h3{
+    font-family: poppins;
+    margin-top: 3px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 15px;
+}
+header .game .card3{
+    /* border: 2px solid black; */
+    width: 25%;
+    height: 90%;
+    margin: auto;
+    position: relative;
+}
+header .game .card3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+header .game .card3 .nmg3{
+    position: absolute;
+    border: 2px solid rgb(255, 255, 255);
+   margin-top: 142px;
+    width: 50%;
+    height: 17%;
+    margin-left: 49.5%;
+    background: linear-gradient(to left,rgba(248, 82, 52, 0.8),rgba(216, 180, 63, 0.8)) ;
+    border-radius: 20px 0px 0px 20px ;
+    
+}
+header .game .card3 .nmg3 h3{
+    font-family: poppins;
+    margin-top: 3px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 15px;
+}
+footer .dtl{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    background: linear-gradient(to left,rgb(232, 57, 57),rgb(0, 0, 0));
+}
+footer .dtl .cont{
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 30%;
+    height: 95%;
+}
+footer .dtl .cont .logonm{
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: auto;
+    height: 30%;
+    display: flex;
+}
+footer .dtl .cont .logonm .vknm{
+    /* border: 2px solid yellow; */
+}
+footer .dtl .cont .logonm .vknm h2{
+   color: aliceblue;
+    font-size: xx-large;
+
+}
+footer .dtl .cont .logonm .consl{
+    /* border: 2px solid blue; */
+    width: 30%;
+    height: 99%;
+    margin-left: 10%;
+}
+footer .dtl .cont .logonm .consl h1{
+    font-size: 75px;
+    margin-left: 12px;
+    color: aliceblue;
+    
+}
+footer .dtl .abt{
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 60%;
+    height: 95%;
+    display: flex;
+}
+footer .dtl .cont li{
+    margin-left: 10%;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 17px;
+    display: flex;
+    color: aliceblue;
+}
+footer .dtl .cont .socialapp{
+    /* border: 2px solid pink; */
+    width: 90%;
+    margin: auto;
+    height: 20%;
+    
+}
+footer .dtl .cont .socialapp li{
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;
+}
+footer .dtl .abt .a1{
+    /* border: 2px solid white; */
+    width: 30%;
+    height: 80%;
+    margin-top: 100px;
+}
+footer .dtl .abt .a1 li{
+    font-family: poppins;
+    color: aliceblue;
+    font-size:15px ;
+    display: flex;
+    padding: none;
+    margin: 0;
+    padding: 0;
+}
+footer .dtl .abt .a1 h1{
+    color: aliceblue;
+    font-family: poppins;
+    font-size: 20px;
+    margin-left: 12px;
+}
